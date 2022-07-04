@@ -1,21 +1,29 @@
 {
   "orders": [
     {
-      "item": "iphone",
-      "price": 450,
-      "id": 1
+      "item": "two",
+      "id": 11
     },
     {
-      "item": "laptop",
-      "id": 2
+      "item": "two",
+      "id": 16
     },
     {
-      "item": "laptop",
-      "id": 3
+      "item": "three",
+      "id": 17
     },
     {
-      "item": "laptop",
-      "id": 4
+      "item": "two",
+      "id": 18
+    },
+    {
+      "item": "two",
+      "id": 19
     }
+  ],
+  "category": [
+    "one",
+    "two",
+    "three"
   ]
 }
