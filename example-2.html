@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <button onclick="generateNewField()">generate new field</button>
+    <div id ='intialContainer'></div>
+
+</body>
+<script>
+    const generateNewField = () => {
+        var containerSelected = document.querySelector('#intialContainer')
+        let createInputBox = document.createElement('input')
+        createInputBox.setAttribute('type', 'radio');
+        containerSelected.appendChild(createInputBox)
+    }
+</script>
+
+</html>

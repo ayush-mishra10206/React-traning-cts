@@ -7,7 +7,9 @@
 </body>
 <script>
     const validate = (event) => {
-        event.target.style.backgroundColor = event.target.value ? 'red' : 'white'
+        const result = event.target.value.trim() == "";
+        event.target.style.backgroundColor = result ? 'green' : 'red'
+        event.target.style.color = result ? 'black' : 'white'
     }
 
     const handleClick = (event)=>{
