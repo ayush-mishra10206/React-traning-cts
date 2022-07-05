@@ -2,18 +2,19 @@
 <html>
 
 <body>
-  <script src="app.js"></script>
-
+  
   <div>
     <label>Item</label><br>
-    <input type="text" value=""><br>
+    <input id = "item" type="text" value="iphone"><br>
     <label>Price</label><br>
-    <input type="text" value=""><br><br>
+    <input id = "price" type="text" value="450"><br><br>
     <input type="radio" value="Domestic">
     <label >Domestic</label>
     <input type="radio" value="International">
     <label >International</label><br><br>
     <select  id="dropDown">
+      <label >date</label>
+      <input type="date" id="datePicker">
     </select><br><br>
     <input type="button" onclick="save(event)" value="Submit">
   </div>
@@ -21,5 +22,6 @@
     
   </ol>
 </body>
+<script src="app.js"></script>
 
 </html>
